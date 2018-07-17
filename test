@@ -1,0 +1,11 @@
+Class test
+{
+public static void main(String args[])throws IOException
+{
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+System.out.print("Enter the no. of times you want to print hello");
+int n=Integer.parseInt(br.readLine());
+for(int i=1;i<=n;i++)
+System.out.println("hello");
+}
+}
